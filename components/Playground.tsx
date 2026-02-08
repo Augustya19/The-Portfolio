@@ -28,27 +28,28 @@ const items: PlaygroundItem[] = [
     image: '/art1.jpg',
     link: 'https://www.behance.net/gallery/241962553/The-Process-Modern-Digital-Illustration'
   },
-  {
-    id: 3,
-    category: 'Web Design',
-    title: 'Shush',
-    image: '/shush.jpg',
-    link: 'https://shush-health.vercel.app/'
-  },
+  
   
   {
-    id: 4,
+    id: 3,
     category: 'Digital Art',
     title: 'A Moment of Calm',
     image: '/art2.JPG',
     link: 'https://www.behance.net/gallery/241962693/A-Moment-of-Calm-Digital-Artwork?share=1'
   },
   {
-    id: 5,
+    id: 4,
     category: 'Vector Drawing',
     title: 'Holding the Quiet',
     image: '/art4.jpg',
     link: 'https://www.behance.net/gallery/243605549/Holding-the-Quiet'
+  },
+  {
+    id: 5,
+    category: 'Web Design',
+    title: 'Shush',
+    image: '/shush.jpg',
+    link: 'https://shush-health.vercel.app/'
   },
   {
     id: 6,
