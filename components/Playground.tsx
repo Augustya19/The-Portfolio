@@ -45,19 +45,19 @@ const items: PlaygroundItem[] = [
   },
   {
     id: 5,
-    category: 'Illustration',
-    title: 'Soft Gaze',
-    image: '/art3.jpg',
-    link: 'https://www.behance.net/gallery/241961873/Soft-Gaze-Digital-Anime-Portrait?share=1'
+    category: 'Vector Drawing',
+    title: 'Holding the Quiet',
+    image: '/art4.jpg',
+    link: 'https://www.behance.net/gallery/243605549/Holding-the-Quiet'
   },
-  
-  /* {
+  {
     id: 6,
     category: 'Illustration',
-    title: 'Character Study',
-    image: 'https://images.unsplash.com/photo-1633531301335-d667c33f20f1?q=80&w=1964&auto=format&fit=crop',
-    link: 'https://behance.net'
+    title: 'All the Pink',
+    image: '/art5.jpg',
+    link: 'https://www.behance.net/gallery/243060349/All-the-Pink'
   },
+/* {
   {
     id: 7,
     category: 'Branding',
