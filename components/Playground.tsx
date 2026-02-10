@@ -58,13 +58,12 @@ const items: PlaygroundItem[] = [
     image: '/art5.jpg',
     link: 'https://www.behance.net/gallery/243060349/All-the-Pink'
   },
-/* {
   {
     id: 7,
-    category: 'Branding',
-    title: 'Minimalist Identity',
-    image: 'https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=2070&auto=format&fit=crop',
-    link: 'https://behance.net'
+    category: 'Web Design',
+    title: 'Elif',
+    image: '/elig.jpg',
+    link: 'https://explain-like-im-5-ten.vercel.app/'
   } */
 ];
 
