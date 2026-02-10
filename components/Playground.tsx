@@ -64,7 +64,7 @@ const items: PlaygroundItem[] = [
     title: 'Elif',
     image: '/elif.png',
     link: 'https://explain-like-im-5-ten.vercel.app/'
-  } */
+  } 
 ];
 
 const Playground: React.FC = () => {
