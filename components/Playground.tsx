@@ -48,7 +48,7 @@ const items: PlaygroundItem[] = [
     id: 5,
     category: 'Web Design',
     title: 'Shush',
-    image: '/shush.jpg',
+    image: '/shush.png',
     link: 'https://shush-health.vercel.app/'
   },
   {
@@ -62,7 +62,7 @@ const items: PlaygroundItem[] = [
     id: 7,
     category: 'Web Design',
     title: 'Elif',
-    image: '/elif.png',
+    image: '/elif1.png',
     link: 'https://explain-like-im-5-ten.vercel.app/'
   } 
 ];
