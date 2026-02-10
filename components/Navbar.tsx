@@ -20,7 +20,7 @@ const Navbar: React.FC<NavbarProps> = ({ onHomeClick }) => {
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
     { name: 'Work', href: '#work' },
-    /* { name: 'Playground', href: '#playground' }, */
+    { name: 'Playground', href: '#playground' }, 
   ];
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
