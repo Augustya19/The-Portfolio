@@ -39,18 +39,19 @@ const items: PlaygroundItem[] = [
   },
   {
     id: 4,
-    category: 'Vector Drawing',
-    title: 'Holding the Quiet',
-    image: '/art4.jpg',
-    link: 'https://www.behance.net/gallery/243605549/Holding-the-Quiet'
-  },
-  {
-    id: 5,
     category: 'Web Design',
     title: 'Shush',
     image: '/shush.png',
     link: 'https://shush-health.vercel.app/'
   },
+  {
+    id: 5,
+    category: 'Vector Drawing',
+    title: 'Holding the Quiet',
+    image: '/art4.jpg',
+    link: 'https://www.behance.net/gallery/243605549/Holding-the-Quiet'
+  },
+  
   {
     id: 6,
     category: 'Illustration',
