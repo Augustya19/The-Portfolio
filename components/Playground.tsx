@@ -29,23 +29,29 @@ const items: PlaygroundItem[] = [
     link: 'https://www.behance.net/gallery/241962553/The-Process-Modern-Digital-Illustration'
   },
   
-  
   {
     id: 3,
+    category: 'Web Design',
+    title: 'Elif',
+    image: '/elif1.png',
+    link: 'https://explain-like-im-5-ten.vercel.app/'
+  },
+  {
+    id: 4,
     category: 'Digital Art',
     title: 'A Moment of Calm',
     image: '/art2.JPG',
     link: 'https://www.behance.net/gallery/241962693/A-Moment-of-Calm-Digital-Artwork?share=1'
   },
   {
-    id: 4,
+    id: 5,
     category: 'Web Design',
     title: 'Shush',
     image: '/shush.png',
     link: 'https://shush-health.vercel.app/'
   },
   {
-    id: 5,
+    id: 6,
     category: 'Vector Drawing',
     title: 'Holding the Quiet',
     image: '/art4.jpg',
@@ -53,21 +59,22 @@ const items: PlaygroundItem[] = [
   },
   
   {
-    id: 6,
+    id: 7,
     category: 'Illustration',
     title: 'All the Pink',
     image: '/art5.jpg',
     link: 'https://www.behance.net/gallery/243060349/All-the-Pink'
   },
-  {
-    id: 7,
-    category: 'Web Design',
-    title: 'Elif',
-    image: '/elif1.png',
-    link: 'https://explain-like-im-5-ten.vercel.app/'
-  },
+  
   {
     id: 8,
+    category: 'Digital Art',
+    title: 'Calm Mornings',
+    image: '/mornings.jpg',
+    link: 'https://www.behance.net/gallery/245118639/Calm-Mornings'
+  }, 
+  {
+    id: 9,
     category: 'Web Design',
     title: 'Life Quest',
     image: '/life quest.png',
