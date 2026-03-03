@@ -65,6 +65,13 @@ const items: PlaygroundItem[] = [
     title: 'Elif',
     image: '/elif1.png',
     link: 'https://explain-like-im-5-ten.vercel.app/'
+  },
+  {
+    id: 8,
+    category: 'Web Design',
+    title: 'Life Quest',
+    image: '/life quest.png',
+    link: 'https://life-quest-habit.vercel.app/'
   } 
 ];
 
