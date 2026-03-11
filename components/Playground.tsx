@@ -27,7 +27,7 @@ const items: PlaygroundItem[] = [
     title: 'Orbit',
     image: '/Frame 2.png',
     link: 'https://www.behance.net/gallery/245592117/ORBIT-AI-Lifestyle-Assistant?share=1'
-  } 
+  },
   {
     id: 3,
     category: 'Web Design',
