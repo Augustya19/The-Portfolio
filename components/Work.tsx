@@ -5,6 +5,14 @@ import { WorkItem } from '../types';
 import { ArrowUpRight } from 'lucide-react';
 
 const works: WorkItem[] = [
+   {
+    category: 'PRODUCT',
+    title: 'AdmitSync',
+    subTitle: 'PRODUCT STRATEGY',
+    description: 'AdmitSync is an AI-powered platform that helps students manage, track, and optimize their college application process in one place. It simplifies complex workflows by combining structured tracking with intelligent insights.',
+    tags: ['User Design', 'Web', 'User Research'],
+    link: 'https://www.notion.so/AdmitSync-Product-Requirements-Document-339be2d7216a8025aa2df48a8152d912?source=copy_link'
+  },
   {
     category: 'PRODUCT',
     title: 'AI-Fitness Coach',
@@ -12,14 +20,6 @@ const works: WorkItem[] = [
     description: 'Designed a fast, habit-first AI Fitness Coach MVP in a 10-day simulation, defining PRD, user flows, feature prioritization, and execution strategy to validate personalized daily coaching.',
     tags: ['Discovery', 'Mobile', 'User Research'],
     link: 'https://www.notion.so/AI-FITNESS-COACH-2c5be2d7216a8071a375fd5e6d48221e?source=copy_link'
-  },
-  {
-    category: 'DESIGN',
-    title: 'Uber: Fare Integrity',
-    subTitle: 'UI/UX CASE STUDY',
-    description: 'Redesigning the ride-completion screen to optimize for driver-rider trust and cost transparency by introducing real-time adjustment breakdowns.',
-    tags: ['UI/UX', 'System Design'],
-    link: 'https://www.notion.so/Case-Study-Real-Time-Fare-Revision-Transparency-for-Ride-Hailing-Apps-Uber-2cabe2d7216a80ce845bd86145758bec?source=copy_link'
   },
   /* {
     category: 'PRODUCT OWNER',
