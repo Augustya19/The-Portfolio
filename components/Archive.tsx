@@ -13,13 +13,29 @@ interface ArchiveProject {
 }
 
 const projects: ArchiveProject[] = [
+   {
+    year: '2026',
+    title: 'AdmitSync',
+    description: 'AdmitSync is an AI-powered platform that helps students manage, track, and optimize their college application process in one place. It simplifies complex workflows by combining structured tracking with intelligent insights.',
+    category: 'Web Development',
+    builtWith: ['React', 'Gemini API', 'JSON'],
+    link: 'https://www.notion.so/AdmitSync-Product-Requirements-Document-339be2d7216a8025aa2df48a8152d912?source=copy_link'
+  },
   { 
     year: '2025', 
     title: 'Spotify: Focus Mode Intelligence', 
     description: 'Focus Mode Intelligence is a conceptual Spotify feature that automatically adapts music playback based on a user’s current activity - Coding, Reading, or Relaxing..',
     category: 'UI Design', 
-    builtWith: ['UX','Strategy','Research'], 
+    builtWith: ['UX', 'Strategy', 'Research'], 
     link: 'https://www.notion.so/Spotify-Focus-Mode-Intelligence-2ebbe2d7216a80cf8bcee6c78ddf1395?source=copy_link' 
+  },
+  { 
+    year: '2025', 
+    title: 'Shush: Health & Hygiene Portal', 
+    description: 'SHUSH is a web application dedicated to raising awareness and promoting knowledge around women’s health and hygiene',
+    category: 'Web Development', 
+    builtWith: ['Typescript', 'React', 'Gemini'], 
+    link: 'https://www.notion.so/SHUSH-Women-s-Health-Portal-339be2d7216a8066910ad3188f4a6236?source=copy_link' 
   },
   { 
     year: '2024', 
