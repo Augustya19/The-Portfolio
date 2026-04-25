@@ -16,7 +16,7 @@ const categories = ['All', 'Digital Art', 'Illustration', 'Web Design','UI Desig
 const items: PlaygroundItem[] = [
   {
     id: 1,
-    category: 'Illustrations',
+    category: 'Illustration',
     title: 'A Visual Study',
     image: '/girl.jpg',
     link: 'https://www.behance.net/gallery/241410213/A-Visual-Study?share=1'
@@ -51,7 +51,7 @@ const items: PlaygroundItem[] = [
   },
   {
     id: 6,
-    category: 'Vector Drawing',
+    category: 'Illustration',
     title: 'Holding the Quiet',
     image: '/art4.jpg',
     link: 'https://www.behance.net/gallery/243605549/Holding-the-Quiet'
