@@ -17,7 +17,6 @@ const Navbar: React.FC<NavbarProps> = ({ onHomeClick }) => {
 
   const navItems = [
     { name: 'About', href: '#about' },
-    { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
     { name: 'Work', href: '#work' },
     { name: 'Playground', href: '#playground' }, 
