@@ -15,6 +15,13 @@ const categories = ['All', 'Digital Art', 'Illustration', 'Web Design','UI Desig
 
 const items: PlaygroundItem[] = [
   {
+    id: 5,
+    category: 'Web Design',
+    title: 'Shush',
+    image: '/shush.png',
+    link: 'https://shush-health.vercel.app/'
+  },
+  {
     id: 1,
     category: 'Illustration',
     title: 'A Visual Study',
@@ -42,13 +49,7 @@ const items: PlaygroundItem[] = [
     image: '/art2.JPG',
     link: 'https://www.behance.net/gallery/241962693/A-Moment-of-Calm-Digital-Artwork?share=1'
   },
-  {
-    id: 5,
-    category: 'Web Design',
-    title: 'Shush',
-    image: '/shush.png',
-    link: 'https://shush-health.vercel.app/'
-  },
+  
   {
     id: 6,
     category: 'Illustration',
