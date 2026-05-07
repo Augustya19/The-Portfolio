@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Playground from './components/Playground';
@@ -31,7 +30,6 @@ const App: React.FC = () => {
             <main>
               <Hero />
               <About />
-              <Experience />
               <Skills />
               <Work onBrowseArchive={handleNavigateArchive} />
               <Playground />
