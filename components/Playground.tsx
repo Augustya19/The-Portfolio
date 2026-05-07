@@ -15,35 +15,42 @@ const categories = ['All', 'Digital Art', 'Illustration', 'Web Design','UI Desig
 
 const items: PlaygroundItem[] = [
   {
-    id: 5,
+    id: 1,
     category: 'Web Design',
     title: 'Shush',
     image: '/shush.png',
     link: 'https://shush-health.vercel.app/'
   },
   {
-    id: 1,
+    id: 2,
     category: 'Illustration',
     title: 'A Visual Study',
     image: '/girl.jpg',
     link: 'https://www.behance.net/gallery/241410213/A-Visual-Study?share=1'
   },
   {
-    id: 2,
+    id: 3,
     category: 'UI Design',
     title: 'Orbit',
     image: '/Frame 2.png',
     link: 'https://www.behance.net/gallery/245592117/ORBIT-AI-Lifestyle-Assistant?share=1'
   },
+   {
+    id: 4,
+    category: 'Web Design',
+    title: 'AdmitSync',
+    image: '/admitsync.png',
+    link: 'https://admitsync.vercel.app/'
+  },
   {
-    id: 3,
+    id: 5,
     category: 'Web Design',
     title: 'Elif',
     image: '/elif1.png',
     link: 'https://explain-like-im-5-ten.vercel.app/'
   },
   {
-    id: 4,
+    id: 6,
     category: 'Digital Art',
     title: 'A Moment of Calm',
     image: '/art2.JPG',
@@ -51,7 +58,7 @@ const items: PlaygroundItem[] = [
   },
   
   {
-    id: 6,
+    id: 7,
     category: 'Illustration',
     title: 'Holding the Quiet',
     image: '/art4.jpg',
@@ -59,28 +66,13 @@ const items: PlaygroundItem[] = [
   },
   
   {
-    id: 7,
+    id: 8,
     category: 'Illustration',
     title: 'All the Pink',
     image: '/art5.jpg',
     link: 'https://www.behance.net/gallery/243060349/All-the-Pink'
   },
-  
-  {
-    id: 8,
-    category: 'Digital Art',
-    title: 'Calm Mornings',
-    image: '/mornings.jpg',
-    link: 'https://www.behance.net/gallery/245118639/Calm-Mornings'
-  }, 
-  {
-    id: 9,
-    category: 'Web Design',
-    title: 'Life Quest',
-    image: '/life quest.png',
-    link: 'https://life-quest-habit.vercel.app/'
-  }
-  
+    
 ];
 
 const Playground: React.FC = () => {
