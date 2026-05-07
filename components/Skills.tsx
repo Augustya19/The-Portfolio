@@ -32,7 +32,7 @@ const skillGroups = [
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="py-25 px-6 bg-white">
+    <section id="skills" className="py-40 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center mb-20">
           <span className="text-[10px] font-bold tracking-[0.3em] text-indigo-600 uppercase mb-4 block">Capabilities</span>
@@ -64,7 +64,7 @@ const Skills: React.FC = () => {
                 {group.skills.map((skill) => (
                   <span
                     key={skill}
-                    className="px-4 py-1.5 bg-white border border-stone-200 rounded-lg text-xs font-semibold text-stone-600 hover:border-indigo-600 hover:text-indigo-600 transition-colors cursor-default"
+                    className="px-4 py-1.5 bg-white border border-stone-200 rounded-lg text-xs font-semibold text-stone-600 hover:border-indigo-600 hover:text-indigo-600 transition-colors cursor-d[...]
                   >
                     {skill}
                   </span>
