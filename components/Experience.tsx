@@ -9,7 +9,7 @@ const experiences: (ExperienceItem & { icon: any })[] = [
     period: 'MAY 2026 - PRESENT',
     title: 'Graphic Designer',
     company: 'OPTIPHOENIX',
-    icon: paintbrush,
+    icon: brush,
     description: [
     'Led the end-to-end redesign of the company website, restructuring the information architecture and merging scattered content into one clear brand narrative.',
     'Designed and shipped conversion-focused landing pages and branded reports for client campaigns, building color and layout systems directly from each client’s brand assets. ',
