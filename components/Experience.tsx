@@ -26,8 +26,8 @@ const experiences: (ExperienceItem & { icon: any })[] = [
     'Supported sales and operations teams by managing leads, maintaining client databases, and improving follow-up processes.',
     'Worked closely with senior managers to understand business workflows, sales pipelines, and customer retention strategies.',
     ' Developed strong communication, negotiation, and CRM tool skills through cross-functional collaboration.'
-    ];
-  }
+    ],
+  };
 
 const Experience: React.FC = () => {
   return (
