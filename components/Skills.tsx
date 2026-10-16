@@ -5,12 +5,12 @@ import { Terminal, Globe, Framer, Code2, Database, Layout, PenTool, Workflow } f
 
 const skillGroups = [
   {
-    title: "Core Logic",
-    subtitle: "Foundational Engineering",
-    icon: Terminal,
-    color: "text-indigo-600",
-    bg: "bg-indigo-50",
-    skills: ["Python", "MySQL", "Pandas", "Applied AI", "Gemini Services","Data Analysis", "Data Visualization"]
+    title: "Design & Workflow",
+    subtitle: "Creative Visualization",
+    icon: Framer,
+    color: "text-purple-600",
+    bg: "bg-purple-50",
+    skills: ["Adobe Illustrator", "Adobe Photoshop", "Adobe Fresco", "Figma", "Canva", "UI/UX", "Interactive Design", "Visual Storytelling"]
   },
   {
     title: "Web & Product",
@@ -21,12 +21,12 @@ const skillGroups = [
     skills: ["ReactJS", "NodeJS", "ExpressJS", "REST APIs", "HTML","CSS","Notion", "MS Excel"]
   },
   {
-    title: "Design & Workflow",
-    subtitle: "Creative Visualization",
-    icon: Framer,
-    color: "text-purple-600",
-    bg: "bg-purple-50",
-    skills: ["Adobe Illustrator", "Adobe Fresco", "Figma","Canva", "UI/UX", "GitHub","Visual Storytelling"]
+    title: "Core Logic",
+    subtitle: "Foundational Engineering",
+    icon: Terminal,
+    color: "text-indigo-600",
+    bg: "bg-indigo-50",
+    skills: ["Python", "MySQL", "Pandas", "Applied AI", "Gemini Services","Data Analysis", "Data Visualization"]
   }
 ];
 
