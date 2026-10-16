@@ -27,7 +27,8 @@ const experiences: (ExperienceItem & { icon: any })[] = [
     'Worked closely with senior managers to understand business workflows, sales pipelines, and customer retention strategies.',
     ' Developed strong communication, negotiation, and CRM tool skills through cross-functional collaboration.'
     ],
-  };
+  }
+];
 
 const Experience: React.FC = () => {
   return (
