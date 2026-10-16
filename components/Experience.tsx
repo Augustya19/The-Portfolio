@@ -7,9 +7,9 @@ import { Briefcase, Database } from 'lucide-react';
 const experiences: (ExperienceItem & { icon: any })[] = [
   {
     period: 'MAY 2026 - PRESENT',
-    title: 'GRAPHIC DESIGNER',
+    title: 'Graphic Designer',
     company: 'OPTIPHOENIX',
-    icon: art,
+    icon: paintbrush,
     description: [
     'Led the end-to-end redesign of the company website, restructuring the information architecture and merging scattered content into one clear brand narrative.',
     'Designed and shipped conversion-focused landing pages and branded reports for client campaigns, building color and layout systems directly from each client’s brand assets. ',
