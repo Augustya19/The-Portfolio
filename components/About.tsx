@@ -53,7 +53,7 @@ const About: React.FC = () => {
           
           <div className="space-y-10 text-stone-500 text-lg md:text-xl leading-relaxed font-normal">
             <p>
-              I’m a Computer Science graduate, now exploring roles in Graphic Design and Product Management where creativity meets structured problem-solving. Through my academic and internship experience, I’ve worked on data visualization, predictive modeling, and product oriented projects, which shaped the way I think about users, insights, and impact. Alongside this, I’ve developed strong interests and hands-on skills in graphic design focusing on visual storytelling, clarity, and usability.
+            Designer and frontend developer who takes products from Figma to deployed code - with additional exposure to AI integration and data-driven design. Strong foundation in visual storytelling, interaction design, and building interfaces that are both functional and visually compelling.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-8 border-t border-stone-100">
