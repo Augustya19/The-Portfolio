@@ -26,16 +26,7 @@ const experiences: (ExperienceItem & { icon: any })[] = [
     'Supported sales and operations teams by managing leads, maintaining client databases, and improving follow-up processes.',
     'Worked closely with senior managers to understand business workflows, sales pipelines, and customer retention strategies.',
     ' Developed strong communication, negotiation, and CRM tool skills through cross-functional collaboration.'
-    ]
-  },
-  {
-    period: 'MAY 2024 - JULY 2024',
-    title: 'Data Science Intern',
-    company: 'CELEBAL TECHNOLOGIES',
-    icon: Database,
-    description: ['Led the development of a CNN-based image classification model, achieving 92% accuracy across 10,000+ images.',' Improved model performance by 30% through effective data preprocessing and augmentation, aligning technical outcomes with stakeholder requirements.',' Conducted predictive modeling for house price estimation, delivering an 84.73% improvement in accuracy and demonstrating strong analytical and problem-solving skills.']
-  }
-];
+    ];
 
 const Experience: React.FC = () => {
   return (
