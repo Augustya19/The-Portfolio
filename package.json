@@ -1,24 +1,36 @@
 {
-  "name": "augustya-portfolio-v2",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "thumbs": "node scripts/fetch-thumbnails.mjs",
+    "prebuild": "node scripts/fetch-thumbnails.mjs",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "lucide-react": "^0.562.0",
-    "framer-motion": "^11.0.0",
-    "@google/genai": "^1.37.0"
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "@react-three/fiber": "^9.8.2",
+    "framer-motion": "^14.10.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.170.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.170.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.90.0",
+    "sharp": "^0.35.5",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
   }
 }
