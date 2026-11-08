@@ -126,6 +126,18 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
   },
   {
+    title: 'Rapido',
+    headline: 'Quick Access for iOS',
+    problem: 'Active rides and metro tickets sit two or three taps deep in the app.',
+    role: 'Product thinking and UI concept',
+    outcome: 'Live rides and tickets on the Lock Screen and in the Dynamic Island.',
+    tags: ['Concept', 'iOS', 'Mobility'],
+    description: 'A Live Activity and widget concept that puts active rides and metro tickets on the Lock Screen.',
+    color: 'sky',
+    notion: notion('411be2d7216a81779559d0ec00235068'),
+    featured: true,
+  },
+  {
     title: 'FitAI',
     headline: 'AI Fitness Coach',
     problem: 'Beginners quit because fitness apps overwhelm them on day one.',
