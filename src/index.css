@@ -188,8 +188,77 @@ button, a, input { font: inherit; }
   background: var(--cream);
 }
 
-.hero-canvas { position: absolute; inset: 0; }
-.hero-image { width: 100%; height: 100%; object-fit: cover; object-position: 62% 50%; }
+.hero { background: #FCEEEC; }
+
+/* The stage behaves like object-fit: cover (62% 50%), so the chair can be
+   positioned in the illustration's own coordinates. */
+.hero-canvas { position: absolute; inset: 0; overflow: hidden; container-type: size; }
+.stage {
+  position: absolute;
+  left: 62%;
+  top: 50%;
+  width: max(100cqw, calc(100cqh * 1672 / 941));
+  aspect-ratio: 1672 / 941;
+  transform: translate(-62%, -50%);
+  --chair-left: 47%;
+  --chair-top: 49.3%;
+  --chair-w: 23%;
+}
+.stage-scene, .stage-img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+
+.chair-slot {
+  position: absolute;
+  left: var(--chair-left);
+  top: var(--chair-top);
+  width: var(--chair-w);
+  aspect-ratio: 829 / 992;
+}
+.chair-roll {
+  position: absolute;
+  inset: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: grab;
+  -webkit-tap-highlight-color: transparent;
+}
+.chair-roll:active { cursor: grabbing; }
+.chair-roll:focus-visible { outline: 2px solid var(--cobalt); outline-offset: 6px; border-radius: 12px; }
+.chair-body { position: absolute; inset: 0; transform-origin: 50% 96%; }
+.chair-wheels, .chair-img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.chair-head {
+  position: absolute;
+  left: 15.1%;
+  top: -38%;
+  width: 60.2%;
+  aspect-ratio: 854 / 1065;
+  transform-origin: 50% 85%;
+}
+.chair-head img { position: absolute; left: 0; top: 0; width: 100%; height: auto; display: block; }
+.head-turn { opacity: 0; }
+.chair-shadow {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: -3.5%;
+  height: 10%;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgb(120 80 70 / 0.22), rgb(120 80 70 / 0));
+}
+
+.hero-grid { pointer-events: none; }
+.hero-grid .frame { pointer-events: auto; }
+
+/* Intro: the page opens blank in the illustration's colour, then the desk,
+   then the chair, then the text. Hero.tsx drives it; this hides the pieces
+   before JavaScript runs. */
+html.intro .stage-scene,
+html.intro .chair-roll,
+html.intro .hero-reveal,
+html.intro .hero-scroll,
+html.intro .nav { opacity: 0; }
+html.intro .frame,
+html.intro .handle { animation: none; }
 
 .hero-grid {
   position: relative;
@@ -913,8 +982,19 @@ a.note-card:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4p
     padding-top: 56px;
   }
   .hero-grid { order: 1; height: auto; }
-  .hero-canvas { position: relative; inset: auto; order: 2; margin-top: -8px; }
-  .hero-image { height: auto; object-fit: contain; }
+  .hero { background: #FCF2EF; }
+  .hero-canvas { position: relative; inset: auto; order: 2; margin-top: -8px; container-type: normal; }
+  .stage {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 100%;
+    aspect-ratio: 1168 / 850;
+    transform: none;
+    --chair-left: 32%;
+    --chair-top: 51.8%;
+    --chair-w: 26.1%;
+  }
   .frame { width: min(100%, 560px); margin-inline: auto; }
   .hero-scroll { display: none; }
 
